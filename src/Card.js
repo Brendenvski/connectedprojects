@@ -13,9 +13,12 @@ class Card extends Component {
 
 
     return (
-      <div className="Card">
+    <div className= "Wrapper">
+    		<div className="Card">
         {this.props.title}
+        <div>{this.props.swag}</div>
       </div>
+    </div>
     );
   }
 }

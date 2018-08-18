@@ -59,7 +59,7 @@ class App extends Component {
         </p>
         {
           this.state.titles.map(title => {
-            return (<Card title={title} />)
+            return (<Card title={title} swag="coolio"/>)
           })
         }
       </div>
